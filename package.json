@@ -1,5 +1,5 @@
 {
-  "name": "react-native-android-sms-verification-api",
+  "name": "@fretefy/react-native-android-sms-verification-api",
   "version": "1.0.7",
   "description": "A wrapper for the Android SMS Verification API. Includes both SMS Retriever for Zero-tap SMS verification and SMS User Consent for the One-tap SMS verification",
   "main": "lib/commonjs/index",
@@ -48,9 +48,6 @@
     "url": "https://github.com/jgkiano/react-native-android-sms-verification-api/issues"
   },
   "homepage": "https://github.com/jgkiano/react-native-android-sms-verification-api#readme",
-  "publishConfig": {
-    "registry": "https://pkgs.dev.azure.com/fretefy/_packaging/fretefy/npm/registry"
-  },
   "devDependencies": {
     "@commitlint/config-conventional": "^11.0.0",
     "@react-native-community/eslint-config": "^2.0.0",
