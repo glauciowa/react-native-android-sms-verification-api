@@ -49,7 +49,7 @@
   },
   "homepage": "https://github.com/jgkiano/react-native-android-sms-verification-api#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://pkgs.dev.azure.com/fretefy/_packaging/fretefy/npm/registry"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^11.0.0",
@@ -100,10 +100,10 @@
       "tagName": "v${version}"
     },
     "npm": {
-      "publish": true
+      "publish": false
     },
     "github": {
-      "release": true
+      "release": false
     },
     "plugins": {
       "@release-it/conventional-changelog": {
